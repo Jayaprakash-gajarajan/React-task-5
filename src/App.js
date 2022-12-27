@@ -73,7 +73,6 @@ function Create() {
         <input placeholder='enter the subject' value={subject} onChange={event => setSubject(event.target.value)} /><br></br>
       </FormField><br></br>
       <Button id="button" onClick={openData}> Submit</Button>
-      <Button color="inherit" onClick={() => navigate("/update")}>Update</Button>
     </Form>
 
   )
